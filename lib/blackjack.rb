@@ -38,6 +38,10 @@ def initial_round
   card_total
   end
 
+  def dealer_intital_round
+    deal_card + deal_card
+  end
+
 def hit?(card_total)
   prompt_user
   input = get_user_input
